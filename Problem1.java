@@ -19,7 +19,9 @@ public class week13_1 {
 
         sort(list);
 
-        System.out.println(list);
+        for (int i = 0; i < 10; i++){
+            System.out.print(list.get(i));
+            System.out.print(" ");
     }
 
     public static void sort(ArrayList<Number> list) {
